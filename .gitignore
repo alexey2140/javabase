@@ -1,0 +1,12 @@
+.classpath
+.project
+/.settings/
+/.idea/
+/out/
+*.iml
+/target/
+/failedTests/
+/Snapshots/
+/Temps/
+/*.txt
+/*.log
