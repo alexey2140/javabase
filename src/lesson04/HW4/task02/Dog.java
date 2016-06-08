@@ -2,7 +2,7 @@
 В main( ) создать 2 экземпляра класса с name “spot” (says, “Ruff!”) и “scruffy” (says, “Wurf!”).
 И распечатать поля объектов.
 */
-package HW4.task02;
+package lesson04.HW4.task02;
 
 public class Dog {
     String name;

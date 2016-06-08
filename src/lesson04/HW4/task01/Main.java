@@ -1,6 +1,6 @@
 /* Создать класс, который содержит int и char (не проинициализированные) и распечатать ихзначения.
 */
-package HW4.task01;
+package lesson04.HW4.task01;
 
 public class Main {
     int a;
