@@ -7,23 +7,19 @@ public class Main {
     private static int count;
 
     public static void main(String[] args) {
-
-
-        int a = 0, b = 1, c, fib;
-        c = 15;
-
-        for (int i = 0; i < c; i++) {
-            fib = a + b;
-            a = b;
-            b = fib;
-            System.out.print(fib + " ");
-            if (i == 3) {
-                count++;
-            }
+        fibonacci(15);
+        System.out.println("Четвёртый элемент был расчитан " + count + " раз.");
+    }
+    public static int fibonacci(int n) {
+        if (n < 2) {
+            return n;
         }
-        System.out.println("");
-        System.out.println("Четвертый элемент последовательности Фибоначчи был вычислен " + count + " раз");
-        System.out.println("ЗАДАЧА НЕ ЯСНА!!111");
-
+        else if (n - 1 == 4|| n - 2 == 4) {
+            count++;
+            return fibonacci(n - 1) + fibonacci(n - 2);
+        }
+        else {
+            return fibonacci(n - 1) + fibonacci(n - 2);
+        }
     }
 }
